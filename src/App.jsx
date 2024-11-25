@@ -1,12 +1,14 @@
-import {useState} from 'react'
 import './App.css'
-import Counter from "./app/components/Counter.jsx";
+import PostsList from "./app/features/posts/PostList.jsx";
+import AddPostForm from "./app/features/posts/AddPostForm.jsx";
 
 function App() {
-    const [count, setCount] = useState(0)
 
     return (
-        <Counter/>
+        <main className="App">
+            <AddPostForm/>
+            <PostsList/>
+        </main>
     )
 }
 
