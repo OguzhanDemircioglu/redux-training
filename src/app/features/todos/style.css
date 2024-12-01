@@ -1,0 +1,65 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 4px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* Input Stili */
+input {
+    width: 100%; /* Genişliği konteynerin tamamını kaplar */
+    padding: 10px; /* İç boşluk */
+    margin-bottom: 10px; /* Alt boşluk */
+    border: 1px solid #ccc; /* Hafif gri kenar */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    font-size: 16px; /* Yazı boyutu */
+    outline: none; /* Odaklandığında mavi kenar kalkar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Geçiş animasyonu */
+}
+
+/* Input'a Odaklanıldığında (Focus) */
+input:focus {
+    border-color: #007BFF; /* Odaklanıldığında kenar mavi */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Hafif mavi gölge */
+}
+
+/* Button Stili */
+button {
+    padding: 10px 20px; /* İç boşluk */
+    background-color: #007BFF; /* Mavi arka plan */
+    color: white; /* Beyaz yazı */
+    border: none; /* Kenar yok */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    font-size: 16px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+    cursor: pointer; /* Fare imleci değişir */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Geçiş animasyonu */
+}
+
+/* Button Üzerine Gelindiğinde (Hover) */
+button:hover {
+    background-color: #0056b3; /* Daha koyu mavi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Daha belirgin gölge */
+}
+
+/* Button Tıklanırken (Active) */
+button:active {
+    background-color: #003f7f; /* Daha koyu mavi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Daha az gölge */
+}
+
+/* Button Devre Dışı (Disabled) */
+button:disabled {
+    background-color: #ccc; /* Gri arka plan */
+    color: #666; /* Daha soluk yazı rengi */
+    cursor: not-allowed; /* Fare imleci değişir */
+    box-shadow: none; /* Gölge yok */
+}
